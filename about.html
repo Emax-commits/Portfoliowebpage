@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/fav.png" sizes="32x22" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Netxine</title>
+</head>
+<body>
+    <!-------------------Header for the website------------------->
+    <header class="header">
+        <a href=""><img src="/My Project/Images/my logo.png" alt="logo"></a>
+        <div class="navmenu" id="navmenu">
+            <i class="bx bx-window-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    <!-------------------Sub-header Session------------------->
+    <section class="sub-header" id="sub-header">
+        <h1>About <span>Me</span></h1>
+    </section>
+    
+     <!-------------------About Session------------------->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/cartoon.png" alt="my Image">
+        </div>
+        <div class="about-text">
+            
+            <h4> <span>I'm a</span> Software Developer</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam exercitationem maxime dolores fuga corrupti, quas ullam nam. Beatae veniam esse eaque eligendi veritatis labore similique asperiores, deserunt dolor necessitatibus ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam exercitationem maxime dolores fuga corrupti, quas ullam nam. Beatae veniam esse eaque eligendi veritatis labore similique asperiores, deserunt dolor necessitatibus ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam exercitationem maxime dolores fuga corrupti, quas ullam nam. Beatae veniam esse eaque eligendi veritatis labore similique asperiores, deserunt dolor necessitatibus ab.</p>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+    </section>
+    <section class="other" id="other">
+        <div class="sub-text-title">
+            <h2>Why <span>Me</span></h2>
+        </div>
+        <div class="other-img">
+            <img src="Images/fav.png" alt="logo">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+        <h3> <span>As</span> a Software Developer & an Aspiring Businessman</h3>
+        <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, provident possimus! Recusandae.</p>
+        <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, provident possimus! Recusandae.</p>
+        <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, provident possimus! Recusandae.</p>
+
+        <div>
+            <a href="#" class="btn"> Hire Me</a>
+        </div>
+    </section>
+
+         <!-------------------Footer------------------->
+         <footer class="footer">
+            <div class="attribution">
+                <p>Developed with <i class='bx bxs-heart'></i> by @CodEmax!</p>
+            </div>
+            <div class="mov-up">
+                <a href="#sub-header"> 
+                    <i class='bx bx-chevrons-up'></i>
+                </a>
+             </div>
+         </footer>
+        
+           <!-------------------Js toogle Menu------------------->
+           <script>
+            var navmenu = document.getElementById("navmenu");
+
+            function openMenu(){
+                navmenu.style.right = "0";
+            }
+
+            function closeMenu(){
+                navmenu.style.right = "-250px";
+            }
+           </script>
+</body>
+</html>

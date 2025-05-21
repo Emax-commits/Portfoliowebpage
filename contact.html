@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/fav.png" sizes="32x22" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Netxine</title>
+</head>
+<body>
+    <!-------------------Header for the website------------------->
+    <header class="header">
+        <a href=""><img src="/My Project/Images/my logo.png" alt="logo"></a>
+        <div class="navmenu" id="navmenu">
+            <i class="bx bx-window-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    <!-------------------Sub-header Session------------------->
+    <section class="sub-header" id="sub-header">
+       <h1>Contact <span>Me!</span></h1>
+    </section>
+    
+      <!-------------------Contact Session------------------->
+      <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31706.669266483423!2d3.223213135813624!3d6.605395408148123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9a8952f3c043%3A0xc535e05cd3311792!2sAyobo%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1746890287139!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+     <section class="contact" id="contact">
+        <div class="contact-text">
+            <h4 class="topic">Whatever your project may be......</h4>
+            <p>As a Developer, I take learning as the first prioprity because in the process of learning you discover great! stuff to develop and i have a unique and effective user experiences. Let's talk about your specific needs and see how i can help.</p>
+            <div class="list">
+                <li> <a href="#">+2347040000000</a></li>
+                <li> <a href="#">Netxine@gmail.com</a></li>
+                <li> <a href="#">Like, Share $ Subscribe</a></li>
+            </div>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="number" placeholder="Your Phone Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How can i help you"></textarea>
+                <input type="submit" value="Send Message" class="submit">
+            </form>
+        </div>
+
+        </section>
+    
+         <!-------------------Footer------------------->
+         <footer class="footer">
+            <div class="attribution">
+                <p>Developed with <i class='bx bxs-heart'></i> by @CodEmax!</p>
+            </div>
+            <div class="mov-up">
+                <a href="#sub-header"> 
+                    <i class='bx bx-chevrons-up'></i>
+                </a>
+             </div>
+         </footer>
+        
+           <!-------------------Js toogle Menu------------------->
+           <script>
+            var navmenu = document.getElementById("navmenu");
+
+            function openMenu(){
+                navmenu.style.right = "0";
+            }
+
+            function closeMenu(){
+                navmenu.style.right = "-250px";
+            }
+           </script>
+</body>
+</html>

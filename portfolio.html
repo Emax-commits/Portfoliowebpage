@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/fav.png" sizes="32x22" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Netxine</title>
+</head>
+<body>
+    <!-------------------Header for the website------------------->
+    <header class="header">
+        <a href=""><img src="/My Project/Images/my logo.png" alt="logo"></a>
+        <div class="navmenu" id="navmenu">
+            <i class="bx bx-window-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    <!-------------------Sub-header Session------------------->
+    <section class="sub-header" id="sub-header">
+        <h1>Recent <span>Projects</span></h1>
+    </section>
+    
+     <!-------------------Portfolio Session------------------->
+
+     <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+            <h2>Frontend Development <span>Projects</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img class="img" src="Images/h1.png" alt="recent project" width="400px">
+                <div class="cover">
+                    <h5>Responsiveness</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis praesentium sed hic rem, dolorem saepe neque debitis quae repellat illum non laborum accusantium error iste! Repellat nam aperiam nobis!</p>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img class="img" src="Images/h2.png" alt="recent project" width="400px">
+                <div class="cover">
+                    <h5>Visual Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis praesentium sed hic rem, dolorem saepe neque debitis quae repellat illum non laborum accusantium error iste! Repellat nam aperiam nobis!</p>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+            <h2>UI/Ux <span>Design</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img class="img" src="Images/new.png" alt="recent project" >
+                <div class="cover">
+                    <h5>Ui/Ux Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis praesentium sed hic rem, dolorem saepe neque debitis!</p>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+            <h2>Video <span>Editting</span></h2>
+        </div>
+        <div class="portfolio-content">
+            
+            <div class="row">
+                <video class="img" autoplay controls loop muted src="Video/BEta.mp4" width="400px"></video>
+                <div class="cover">
+                    <h5>Video Editting</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis praesentium sed hic rem, dolorem saepe neque debitis </p>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+         <!-------------------Footer------------------->
+         <footer class="footer">
+            <div class="attribution">
+                <p>Developed with <i class='bx bxs-heart'></i> by @CodEmax!</p>
+            </div>
+            <div class="mov-up">
+                <a href="#sub-header"> 
+                    <i class='bx bx-chevrons-up'></i>
+                </a>
+             </div>
+         </footer>
+        
+           <!-------------------Js toogle Menu------------------->
+           <script>
+            var navmenu = document.getElementById("navmenu");
+
+            function openMenu(){
+                navmenu.style.right = "0";
+            }
+
+            function closeMenu(){
+                navmenu.style.right = "-250px";
+            }
+           </script>
+</body>
+</html>
